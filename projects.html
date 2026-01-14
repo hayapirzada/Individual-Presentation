@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <button onclick="goHome()">Haya Pirzada</button>
+      <button onclick="goProjects()">Projects</button>
+      <button onclick="goHobbies()">Hobbies</button>
+    </header>
+
+    <main>
+      <section class="projects">
+        <h1>Projects</h1>
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-text">
+            <h2>MySQL CSI 3450</h2>
+            <ul>
+              <li>Tools: MySQL, MySQL Workbench, Python, Flask, Git/GitHub</li>
+              <li>
+                Designed and built the database schema for a movie management
+                system.
+              </li>
+              <li>
+                Created tables, defined relationships, and wrote SQL queries to
+                handle data retrieval and management.
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-image">
+            <img
+              src="/assets/movieDB.png"
+              alt="MySQL database project screenshot"
+            />
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-text">
+            <h2>Products Card CSI 3150</h2>
+            <ul>
+              <li>Tools: HTML5, CSS3</li>
+              <li>Mini in-class project</li>
+            </ul>
+          </div>
+
+          <div class="project-image">
+            <img
+              src="/assets/product-card.png"
+              alt="HTML and CSS product card project"
+            />
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-text">
+            <h2>Pokémon Card Scanner</h2>
+            <ul>
+              <li>
+                Tools: Java, Android Studio, Camera2 API, Google ML Kit, Pokémon
+                TCG API
+              </li>
+              <li>
+                Developing an Android app that scans Pokémon cards using OCR.
+              </li>
+              <li>
+                Integrating the Pokémon TCG API to display rarity, price, and
+                card images.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/buttons.js"></script>
+  </body>
+</html>
